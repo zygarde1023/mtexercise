@@ -20,7 +20,7 @@
 		color: #ccf2ff;
 	}
     .head{
-		background-color: #45a29e;
+		background-color: #b3b3ff;
 		color: #1f2833;
 		font-weight: bold;
 	}
