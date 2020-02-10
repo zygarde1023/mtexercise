@@ -13,8 +13,6 @@
 -- Dumping database structure for db_1822199
 CREATE DATABASE IF NOT EXISTS `db_1822199` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `db_1822199`;
-
-
 -- Dumping structure for table db_1822199.tbl_cars
 CREATE TABLE IF NOT EXISTS `tbl_cars` (
   `id` int(11) NOT NULL,
