@@ -1,6 +1,6 @@
 <?php
 session_start();
-define('DB_SERVER','https://www.obvibase.com/p/pEbZvkaRl9BWv61a');
-define('DB_USERNAME','zbcawalingusls1023@gmail.com');
-define('DB_PASSWORD','zhandro12');
-define('DB_DATABASE','db');
+define('DB_SERVER','dbrojasdev.cjw42bnplsor.us-east-1.rds.amazonaws.com');
+define('DB_USERNAME','admin');
+define('DB_PASSWORD','root1234');
+define('DB_DATABASE','db_1822199');
