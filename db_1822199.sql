@@ -25,13 +25,13 @@ CREATE TABLE IF NOT EXISTS `tbl_cars` (
 
 -- Dumping data for table db_1822199.tbl_cars: ~0 rows (approximately)
 /*!40000 ALTER TABLE `tbl_cars` DISABLE KEYS */;
-INSERT INTO `tbl_cars` (`id`, `carbrand`, `carstatus`, `carname`, `carprice`) VALUES
-	(0, 'Aston Martin', 'Good Condition', 'DB8', '4500000'),
-	(1, 'Aston Martin', 'Good Condition', 'DB11', '6500000'),
-	(2, 'Mustang', 'Best Condition', 'GT250', '3800000'),
-	(3, 'Honda', 'Fair Condition', 'Civic2018', '2500000'),
-	(4, 'Toyota', 'Good Condition', 'Land Cruiser 2019', '2900000'),
-	(5, 'Lamborgini', 'Best Condition', 'Urus', '5500000');
+INSERT INTO `tbl_cars` (`carbrand`, `carstatus`, `carname`, `carprice`) VALUES
+	('Aston Martin', 'Good Condition', 'DB8', '4500000'),
+	('Aston Martin', 'Good Condition', 'DB11', '6500000'),
+	('Mustang', 'Best Condition', 'GT250', '3800000'),
+	('Honda', 'Fair Condition', 'Civic2018', '2500000'),
+	('Toyota', 'Good Condition', 'Land Cruiser 2019', '2900000'),
+	('Lamborgini', 'Best Condition', 'Urus', '5500000');
 /*!40000 ALTER TABLE `tbl_cars` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
